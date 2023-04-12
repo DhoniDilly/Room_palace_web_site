@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*  font-family: 'Poppins', sans-serif; -----> heading*/
+/* font-family: 'Open Sans', sans-serif; -----> pages*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    width: 100%;
+    min-height: auto;
+}
+.panner_section {
+    height: 80vh;
+    background-color: aquamarine;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)), url(images_for_next_project/5e84e03492f49139d14393b790e41fd5.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: 50% 50%;
+}
+.panner_image1 {
+    width: 400px;
+    height: auto;
+}
+.panner_image2 {
+    width: 400px;
+    height: auto;
+}
+
+/*........Traveller_section.........*/
+
+.Traveller_section {
+    height: 140vh;
+}
+.menu_cards {
+    height: 30%;
+    transform: translateY(-200px);
+}
+.menu_cards_box {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card {
+    height: 100% !important;
+    border-radius: 0px !important;
+}
+.icons_svg {
+    width: 70px;
+    height: 70px;
+}
+.card h5 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.card p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+.color_card_1 {
+    background-color: #8F7E6D !important;
+    border: none !important;
+}
+.color_card_2 {
+    background-color: #D0C2B4 !important;
+    border: none !important;
+}
+.color_card_3 {
+    background-color: #E4E2E0 !important;
+    border: none !important;
+}
+.menu_cards2 {
+    height: 55% !important;
+    transform: translateY(90px);
+}
+.section2_row2_left, .section2_row2_right {
+    height: 100%;
+}
+.section2_row2_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2_row2_left img {
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+}
+.section2_row2_right_details {
+    height: 60%;
+    margin-top: 35px !important;
+}
+.section2_row2_right_box {
+    height: 50%;
+}
+.section2_row2_right h1 {
+    font-size: 33px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.section2_row2_right img {
+    width: 90%;
+    height: auto;
+    margin-left: 10px;
+}
+.right_box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_box1 img {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+.right_box2 p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 8px;
+    margin-left: 5px;
+    width: 90%;
+}
+
+/*.........inspiration_section........*/
+.inspiration_section {
+    height: 60vh;
+    background: url(images_for_next_project/68140723d43bb7cbe9bbf6d41c6357a8.jpeg);
+    background-position: 50%, 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Inspiration_box {
+    width: 650px;
+    height: auto;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    opacity: 0.9;
+}
+.Inspiration_box h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.Inspiration_box img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+}
+.Inspiration_box p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/*.............Boutique_Hotels..........*/
+
+.Boutique_Hotels {
+    height: 90vh;
+}
+.Boutique_Hotels_top {
+    height: 25%;
+    margin-top: 50px !important;
+}
+.Boutique_Hotels_bottom {
+    height: 70%;
+}
+.Boutique_Hotels_top_left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Boutique_Hotels_top_left img {
+    width: 60%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Boutique_Hotels_top_right {
+    height: 100%;
+}
+.Boutique_Hotels_top_right p {
+    font-size: 14px;
+    white-space: 2px;
+    width: 66%;
+    margin-top: 20px;
+    margin-left: 40px;
+    letter-spacing: 0.5px;
+}
+.Boutique_Hotels_top_right h1 {
+    font-size: 24px;
+    margin-left: 40px;
+}
+.Boutique_Hotels_bottom_left {
+    height: 90%;
+    margin: 30px auto !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Boutique_Hotels_bottom_center {
+    height: 90%;
+    margin: 30px auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Boutique_Hotels_bottom_left img {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+.Boutique_Hotels_bottom_center h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.Boutique_Hotels_bottom_center img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+}
+.Boutique_Hotels_bottom_center p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 23px;
+    width: 97%;
+}
+.follow_us_section {
+    height: 30vh;
+    background-color: #61564C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.follow_us_section h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+.follow_us_section a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(17, 16, 16);
+    letter-spacing: 1px;
+    background-color: #d3d2d0;
+    padding: 10px 40px 10px 40px;
+    margin-top: 30px !important;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+.follow_us_section a:hover {
+    background-color: #8a7a6b;
+}
+
+/******The Best Hotel********/
+
+.The_Best_Hotel_section {
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 40px
+}
+.The_Best_Hotel_section h1 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.The_Best_Hotel_section_top {
+    height: 40%;
+    width: 100%;
+}
+.The_Best_Hotel_section_top_box {
+    height: 100%;
+}
+.The_Best_Hotel_section_top_card {
+    border: none !important;
+}
+.The_Best_Hotel_section_top_card_icon {
+    width: 60px;
+    height: 60px;
+}
+.last_card_test {
+    text-align: center;
+    font-size: 14px !important;
+}
+.The_Best_Hotel_section_top_box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*--------------footer_section-----------*/
+.footer_section {
+    height: 50vh;
+    background-color: #332E29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.footer_section_details {
+    height: 90%;
+}
+.foooter_section_details_text {
+    height: 100%;
+}
+.foooter_section_details_text_left {
+    height: 100%;
+}
+.input_box {
+    border: 2px solid rgb(122, 122, 122) !important;
+    background-color: #332E29 !important;
+    width: 75% !important;
+    margin-left: 30px;
+    color: white;
+}
+.input_box::placeholder {
+    color: rgb(122, 122, 122) !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.submit_btn {
+    font-size: 16px !important;
+    color: rgb(17, 16, 16) !important;
+    letter-spacing: 1px !important;
+    background-color: #d3d2d0 !important;
+    padding: 10px 40px 10px 40px !important;
+    border-radius: 30px !important;
+    transition: all 0.3s !important;
+    margin-top: 10px !important;
+    margin-left: 30px !important;
+}
+.submit_btn:hover {
+    background-color: #8a7a6b;
+}
+.foooter_section_details_text_left img {
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+    float: right;
+    margin-right: 60px;
+    margin-top: -70px;
+}
+.foooter_section_details_text_left h1 {
+    font-size: 28px;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.foooter_section_details_text_left p {
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    width: 300px;
+    line-height: 25px;
+    padding: 30px;
+    padding-top: 10px;
+}
+.foooter_section_details_text_left a {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding-left: 30px;
+}
+.social_icons {
+    height: 100px;
+    margin-top: 70px !important;
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.foooter_section_details_text_left h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-top: 90px;
+    padding-left: 30px;
+    color: white;
+}
+.foooter_section_details_text_left span i {
+    color: white;
+    font-size: 28px;
+    padding-left: 30px;
+}
+.template_creator {
+    height: 10vh;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.template_creator h1 {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+@media only screen and (max-width:1200px) {
+    .Traveller_section {
+        height: 120vh;
+        margin-bottom: 200px;
+    }
+    .menu_cards2 {
+        transform: translateY(130px);
+    }
+    .panner_image2 {
+        margin-bottom: 120px;
+    }
+    .card {
+        height: auto !important;
+    }
+    .section2_row2_left img {
+        width: 100%;
+        height: 100%;
+    } 
+    .section2_row2_right h1 {
+        margin-top: 0px;
+    }
+    .right_box2 p {
+        width: 100%;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .Traveller_section {
+        height: auto;
+    }
+    .menu_cards {
+        transform: translateY(0px);
+        margin-top: 30px !important;
+    }
+    .card {
+        margin-bottom: 30px !important;
+    }
+    .right_box2 {
+        margin-left: 10px;
+        width: 90% !important;
+    }
+    .inspiration_section {
+        height: 100vh;
+        margin-top: 130px;
+    }
+    .Inspiration_box {
+        width: 450px;
+    }
+    .Boutique_Hotels {
+        height: auto;
+    }
+    .Boutique_Hotels_top_left img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+    }
+    .Boutique_Hotels_top_right p {
+        padding-top: 50px;
+    }
+    .The_Best_Hotel_section {
+        height: auto;
+    }
+    .footer_section {
+        height: auto;
+    }
+    .foooter_section_details_text_left img {
+        margin-right: 30px;
+        margin-top: -20px;
+    }
+    .right_box1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
